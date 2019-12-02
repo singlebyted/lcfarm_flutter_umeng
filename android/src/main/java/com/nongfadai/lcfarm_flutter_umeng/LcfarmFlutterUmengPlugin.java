@@ -91,8 +91,6 @@ public class LcfarmFlutterUmengPlugin implements MethodCallHandler {
 
         UMConfigure.setEncryptEnabled(encrypt);
 
-        MobclickAgent.openActivityDurationTrack(false);
-
         result.success(true);
 
     }
